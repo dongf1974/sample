@@ -1,0 +1,616 @@
+/* 
+ * Copyright (c) Visto Corporation dba Good Technology, 2012. All rights reserved.
+ */
+
+/* Localizable strings within the Good Dynamics client library user interface.
+ * The order of strings in this file is based on the order in which they would
+ * normally be encountered during set-up, and then on the order in which they 
+ * appear on the screen, from top to bottom.
+ */
+
+/* Welcome UI strings, for the first page that is displayed, before set-up. */
+
+/* Welcome UI : Navigation Title
+ * Also appears in the following:
+ * Provision UI : Navigation Title
+ * Provision Progress UI : Navigation Title
+ */
+"Setup" = "Setup";
+
+/* Welcome UI : Next button label text */
+"Start" = "Setup";
+
+/* Welcome UI : Next button Accessibility label */
+"_Start" = "Setup";
+
+/* Welcome UI : Next button Accessibility hint */
+"__Start" = "Naar volgende scherm.";
+
+/* Welcome UI : Welcome Message
+ * In the following, WiFi should be Wi-Fi with a hyphen, but the UI will 
+ * break the line at the hyphen, which looks bad.
+ * IT admin should be IT administrator, but administrator is a long word and 
+ * causes an odd line break.
+ */
+"Welcome to Good Dynamics" =
+"Welkom bij Good Dynamics.
+
+Tijdens het setup-proces is een mobiele of WiFi-dataverbinding nodig.
+Voor de setup hebt u uw e-mailadres nodig en de toegangscode die u kunt vinden in het welkomsbericht van uw IT-beheerder.";
+
+/* Provision UI strings, for the page on which the user enters their 
+ * e-mail address and activation key (aka PIN).
+ */
+
+/* Provision UI : Left button label text
+ * Also appears in the following:
+ * Set Password UI : Left button label text
+ * Unlock UI : Left button label text
+ */
+"Cancel" = "Annuleren";
+
+/* Provision UI : Right button label text */
+"Next" = "Volgende";
+
+/* Company Name - Good Technology */
+"Good Technology" = "Good Technology";
+
+/* Provision UI : Email Label text */
+"Email Address" = "E-mailadres";
+
+/* Provision UI : Email accessibility label */
+"_EmailAddress" = "E-mailadres";
+
+/* Provision UI : PIN Label text */
+"PIN" = "Toegangscode";
+
+/* Provision UI : PIN Label text */
+"Unlock Key" = "Ontgrendelcode";
+
+/* Provision UI : PIN Field 1 accessibility label */
+"_PinField1" = "Toegangscode veld 1 van 3";
+
+/* Provision UI : PIN Field 2 accessibility label */
+"_PinField2" = "Toegangscode veld 2 van 3";
+
+/* Provision UI : PIN Field 3 accessibility label */
+"_PinField3" = "Toegangscode veld 3 van 3";
+
+/* Provision UI : Error Message - Invalid PIN */
+"Invalid PIN" = "Ongeldige toegangscode";
+
+/* Provision UI : Error Message - No Coverage */
+"Network Required" =
+"Het setup-proces heeft mobiele of WiFi-toegang nodig.
+\nProbeer het opnieuw wanneer een dataverbinding beschikbaar is.";
+
+/* Provision UI : Title */
+"Set-up failed" = "Setup mislukt";
+
+/* Provision Progress UI strings, for the page that is displayed during
+ * authorization processing.
+ */
+
+
+/* Provision Progress UI : Left button label text */
+"Back" = "Terug";
+
+/* Provision Progress UI : Set Up Progress Label */
+"Setup Progress" = "Voortgang";
+
+/* Provision Progress UI : Status Label text */
+"Status" = "Status";
+
+/* Provision Progress UI : State - Init
+ * In this state:
+ * Post to the GD NOC activation service
+ * Establish Push Connection
+ */
+"NOC Activation" = "Infrastructuur-activering";
+
+/* Provision Progress UI : State - NOC
+ * In this state:
+ * Post e-mail address and access key to the NOC
+ * NOC checks validity
+ * Returns: Various server addresses
+ */
+"NOC Provisioning" = "Enterprise-activering";
+
+/* Provision Progress UI : State - Push Channel
+ * In this state:
+ * Initial Push Channel is established
+ */
+"Starting Push Channel" = "Verbinding met push-kanaal wordt gemaakt";
+
+/* Provision Progress UI : State - Negotiate
+ * In this state:
+ * Secure communications set-up, part one
+ */
+"Negotiating Request" = "Communicatie wordt beveiligd";
+
+/* Provision Progress UI : State - Data Request
+ * In this state:
+ * Secure communications set-up, part two
+ */
+"Data Request" = "Communicatie is beveiligd";
+
+/* Provision Progress UI : State - Downloading Policies
+ * In this state:
+ * Retrieve policies from enterprise GC
+ */
+"Downloading Policies" = "Beleid wordt opgehaald";
+
+/* Provision Progress UI : State - Policy Download Complete */
+"Policy Download Complete" = "Beleid opgehaald";
+
+/* Provision Progress UI : State - Provision Complete */
+"Provisioning Complete" = "Enterprise-activering gereed";
+
+/* Provision Progress UI : State - Waiting */
+"Waiting..." = "Even geduld...";
+
+/* Provision Progress UI : State - Checking Permission */
+"Checking Permission" = "Rechten worden gecontroleerd";
+
+/* Provision Progress UI : State - Checking Permission Complete */
+"Permission Verified" = "Rechten geverifieerd";
+
+/* Provision Progress UI : Provision Fail Message */
+"Provisioning with enterprise failed" = "Setup van app is mislukt";
+
+/* Provision Progress UI : Provision accessibility label */
+"_ProvisionProgressUI" = "Setup status";
+
+/* Provision Progress UI : Provision accessibility hint */
+"__ProvisionProgressUI" = "Toont de huidige setup-status.";
+
+/* Provision Progress UI : Provision Access Denied Message
+ * IT admin should be IT administrator, but administrator is a long word and 
+ * causes an odd line break.
+ */
+"Provisioning Denied" = 
+"Het e-mailadres en de toegangscode zijn niet herkend.\n
+Controleer of de ingevoerde waarden correct en niet verlopen zijn. Als het probleem zich blijft voordoen, haal dan een nieuwe toegangscode op via selfservice of uw IT-beheerder.";
+
+/* Provision Progress UI : NOC Activation failure message */
+"NOC Activation failed" = "Er kan geen verbinding met de NOC-service worden gemaakt";
+
+/* Provision Progress UI : NOC Provisining failure message */
+"NOC Provisining Failed" = "Er kan geen verbinding met de NOC-service worden gemaakt";
+
+/* Provision Progress UI : Starting Push Channel failure message */
+"Starting Push Channel Failed" = "Starten van push-kanaal mislukt";
+
+/* Provision Progress UI : Negotiating Request failure message */
+"Negotiating Request Failed" = "Opzetten van verbinding mislukt";
+
+/* Provision Progress UI : Data Request failure message */
+"Data Request Failed" = "Data-aanvraag mislukt";
+
+/* Provision Progress UI : Policy Exchange failure message */
+"Policy Exchange failed" = "Uitwisselen van beleid mislukt";
+
+/* Provision Progress UI : Send Log */
+"Send Log" = "Log verzenden";
+
+/* Provision Progress UI : Retry */
+"Retry" = "Opnieuw proberen";
+
+/* Set Password UI strings, for the screen on which the user sets their
+ * security password. The password must comply with the provisioning 
+ * enterprise's security policies.
+ * The Set Password screen can appear in two contexts:
+ * Immediately after set-up has completed and the user sets their password for 
+ * the first time, and
+ * As part of the preferences user interface, where the user can change their
+ * password.
+ */
+
+/* Set Password UI : Navigation Title - Set Password
+ * For use when the screen appears as part of the set-up UI
+ */
+"Set Password" = "Wachtwoord instellen";
+
+/* Set Password UI : Navigation Title - Change Password
+ * For use when the screen appears as part of the GD Settings UI
+ */
+"Change Password" = "Wachtwoord wijzigen";
+
+/* Set Password UI : Right button label text */
+"Done" = "Gereed";
+
+/* Set Password UI : Label text for setting password. */
+"You are required to set a password." = "U moet een wachtwoord instellen.";
+
+/* Set Password UI : Placeholder text string for confirm password textfield */
+"Confirm New Password" = "Nieuw wachtwoord bevestigen";
+
+/* The following strings are used to present the rules that will apply to the 
+ * user's password.
+ */
+
+/* Set Password UI : Password Guide Preface 
+ * The following appears above the rules statements.
+ */
+"Your password must include:\n" = "Uw wachtwoord moet bestaan uit:\n";
+
+/* Set Password UI : Password Guide - Repeat
+ * Note. The relative positions of repeated characters does not affect this
+ * policy. In other words the repeated characters could be adjacent or not
+ * adjacent.
+ */
+"- Disallow %d or more repeated characters\n" = "- Niet meer dan %d van een teken\n";
+
+/* Set Password UI : Password Guide - Sequential Number
+ * Note: There is no policy against sequential letters, for example: abcdef
+ */
+"- Do not allow sequential numbers\n" = "- Geen opeenvolgende cijfers (bijv. 123 of 321)\n";
+
+/* Set Password UI : Password Guide - Personal Information
+ */
+"- Do not allow personal information\n" = "- Geen persoonlijke gegevens\n";
+
+/* Set Password UI : Password Guide - Length */
+"- Require at least %d characters\n" = "- Minstens %d tekens\n";
+
+/* Set Password UI : Password Guide - Special Character
+ * Note: Here, a special character is one that returns non-zero when passed to a
+ * standard ispunct() function. See the following page for a definition:
+ * http://pubs.opengroup.org/onlinepubs/000095399/basedefs/xbd_chap07.html
+ */
+"- Require at least one special character\n" = "- Niet alleen letters en cijfers\n";
+
+/* Set Password UI : Password Guide - Number */
+"- Require both letters and numbers\n" = "- Zowel letters als cijfers\n";
+
+/* Set Password UI : Password Guide - Uppercase */
+"- Require both upper and lower case\n" = "- Zowel hoofdletters als kleine letters\n";
+
+/* End of password rules */
+
+/* Set Password UI : Placeholder text string for new password textfield */
+"New Password" = "Nieuwe wachtwoord";
+
+/* Set Password UI : Placeholder text string for old password textfield */
+"Old Password" = "Oude wachtwoord";
+
+/* The following are error messages for use when the password that the user
+ * entered does not comply with security policy. These are displayed on a
+ * dialog over the screen on which the user has attempted to enter the password.
+ * The title of the dialog is always "Error" or its localization.
+ */
+
+/* Set Password UI : Error Message - Password Change Failure 
+ * This error is displayed if the old password was incorrect.
+ */
+"New password cannot be changed" = "Wachtwoord kan niet worden gewijzigd. Probeer het opnieuw.";
+
+/* Set Password UI : Error Message - Password Change Failure History */
+"Your password cannot be set to one used previously." = "Wachtwoord is reeds eerder gebruikt.";
+
+/* Set Password UI : Error Message - Password Change Failure Too Soon */
+"Your password cannot be changed twice in the same day." = "Wachtwoord is vandaag al een keer gewijzigd.";
+
+/* Set Password UI : Error Message - Sequential Numbers */
+"No number sequence allowed (eg.123 or 321)" = "Wachtwoord bevat opeenvolgende cijfers (bijv. 123 of 321).";
+
+/* Set Password UI : Error Message - Personal Information */
+"Password cannot have personal information" = "Wachtwoord bevat persoonlijke gegevens";
+
+/* Set Password UI : Error Message - General Error */
+"Password is not strong enough." = "Wachtwoord is niet sterk genoeg.";
+
+/* Set Password UI : Error Message - Short Password */
+"Password is too short." = "Wachtwoord is te kort.";
+
+/* Set Password UI : Error Message - Letters and Numbers */
+"Password must have both letters and numbers" = "Wachtwoord moet zowel letters als cijfers bevatten.";
+
+/* Set Password UI : Error Message - Upper Case */
+"Password must have upper and lower case letters" = "Wachtwoord moet zowel kleine als hoofdletters bevatten.";
+
+/* Set Password UI : Error Message - Numeric Character */
+"There is no numeric character in password." = "Wachtwoord bevat geen cijfers.";
+
+/* Set Password UI : Error Message - Special Character */
+"There is no special character (@, #, $) in password." = "Wachtwoord bevat alleen letters en cijfers.";
+
+/* Set Password UI : Error Message - No Uppercase */
+"There is no uppercase character in password." = "Wachtwoord bevat geen hoofdletters.";
+
+/* Set Password UI : Error Message - Repeated Characters */
+"Too many repeated characters" = "Wachtwoord bevat te veel dezelfde tekens.";
+
+/* Set Password UI : Error Message - Not Matched */
+"Two passwords do not match" = "De twee wachtwoorden komen niet overeen. Probeer het opnieuw.";
+
+/* End of password compliance error messages */
+
+/* Set Password UI : Error Message - Password Set Failure */
+"New password cannot be set" = "Instellen nieuw wachtwoord mislukt.";
+
+/* Set Password UI : Error Message - Empty Password */
+"Empty password is not allowed." = "Wachtwoord is leeg.";
+
+/* Set Password UI : old password accessibility label */
+"_OldPassword" = "Oude wachtwoord";
+
+/* Set Password UI : new password accessibility label */
+"_NewPassword" = "Nieuwe wachtwoord";
+
+/* Set Password UI : confirm password accessibility label */
+"_ConfirmPassword" = "Nieuw wachtwoord bevestigen";
+
+/* Block UI : Navigation Title */
+"Blocked" = "App geblokkeerd";
+
+/* Block UI : Description
+ * In principle, this is always blocked due to policy violation. In actuality,
+ * there are two scenarios in which a policy block could be put in place.
+ * Something may have happened on the device that makes it non-compliant.
+ * Also possible is that a policy update has taken place and the device is not
+ * compliant with the new policy, but was compliant with the old policy.
+ */
+"Application access blocked" = "Toegang tot deze app is geblokkeerd.";
+
+/* Device Wipe UI : Navigation Title */
+"Invalid Device" = "Toegang tot app ontzegd";
+
+/* Device Wipe UI : Description */
+"Your device has been wiped!" = "Deze app is gewist. Neem contact op met uw IT-beheerder als u weer toegang nodig hebt.";
+
+/* InterApp Lock UI : Navigation Title */
+"Access Blocked" = "Toegang geblokkeerd";
+
+/* InterApp Lock UI : Description */
+"The authentication application is not installed." = "De authenticatie-app is niet geïnstalleerd.";
+
+/* InterApp Lock UI : Description whilst retreving download URL */
+"The authentication application is not installed or an update is required.\n\nRetrieving application details:\nBundle ID: %s" = "De authenticatie-app is niet geïnstalleerd of er is een update nodig.\n\nApp-details worden opgehaald:\nBundel-ID: %s";
+
+/* InterApp Lock UI : Description whilst retreving download URL got name and version */
+"The authentication application is not installed or an update is required.\n\nRetrieving application details:\nBundle ID: %s\nName: %s\nVersion: %s" = "De authenticatie-app is niet geïnstalleerd of er is een update nodig.\n\nApp-details worden opgehaald:\nBundel-ID: %s\nNaam: %s\nVersie: %s";
+
+/* InterApp Lock UI : Description retreived download URL */
+"The authentication application is not installed or an update is required.\n\nApplication details:\nBundle ID: %s\nName: %s\nVersion: %s\n\nPlease obtain from:\n%s" = "De authenticatie-app is niet geïnstalleerd of er is een update nodig.\n\nApp-details:\nBundel-ID: %s\nNaam: %s\nVersie: %s\n\nTe verkrijgen van:\n%s";
+
+/* InterApp Lock UI : Description got no download URL */
+"The authentication application is not installed or an update is required.\n\nApplication details:\nBundle ID: %s\nName: %s\nVersion: %s\n\nPlease contact your IT administrator." = "De authenticatie-app is niet geïnstalleerd of er is een update nodig.\n\nApp-details:\nBundel-ID: %s\nNaam: %s\nVersie: %s\n\nNeem contact op met uw IT-beheerder.";
+
+/* Wipe or Reset UI : Title */
+"Authentication failed" = "Authenticatie verloren gegaan";
+
+/* Wipe or Reset UI : Message */
+"The authentication application has failed to authenticate this application. You can choose to initiate Password Reset, which will required obtaining a special code from your IT administrator, or Wipe to wipe all data and start again." = 
+"Selecteer Terughalen om authenticatie terug te halen. Hiervoor hebt u een speciale code van uw IT-beheerder nodig. Selecteer Wissen om uw data te wissen en de authenticatie opnieuw in te laten stellen. Voor het instellen van authenticatie is re-activering met een nieuwe toegangscode nodig.";
+
+/* Wipe or Reset UI : Right button label text */
+"Reset Password" = "Terughalen";
+
+/* Wipe or Reset UI : Left button label text */
+"Wipe" = "Wissen";
+
+/* Please Wait UI : Navigation Title */
+"Authenticating" = "Bezig met authenticatie";
+
+/* Remote Lock UI : Navigation Title */
+"Remote Lock" = "App is op afstand geblokkeerd";
+
+/* Remote Lock UI : Right button label text
+ Unlock UI : Right button label text */
+"Unlock" = "Ontgrendelen";
+
+/* Remote Lock UI : Help Message */
+"Contact your IT administrator with the following case sensitive unlock-code to get the temporary unlock password." = "Neem contact op met uw IT-beheerder voor een tijdelijk wachtwoord om deze app te ontgrendelen op basis van de volgende ontgrendelcode.";
+
+/* Remote Lock UI : Password Field 1 accessibility label */
+"_PwdField1" = "Ontgrendelcode veld 1 van 4";
+
+/* Remote Lock UI : Password Field 2 accessibility label */
+"_PwdField2" = "Ontgrendelcode veld 2 van 4";
+
+/* Remote Lock UI : Password Field 3 accessibility label */
+"_PwdField3" = "Ontgrendelcode veld 3 van 4";
+
+/* Remote Lock UI : Password Field 4 accessibility label */
+"_PwdField4" = "Ontgrendelcode veld 4 van 4";
+
+/* Remote Lock UI : Error alertview message
+ Unlock UI : Error alertview message */
+"Incorrect Password" = "Ongeldig wachtwoord";
+
+/* Unlock UI : Incorrect Password with max */
+"The password you entered is not correct. You have %d attempts remaining." = 
+"U hebt een ongeldig wachtwoord ingevoerd. U hebt nog %d pogingen over.";
+
+/* Unlock UI : Incorrect Password */
+"The password you entered is not correct." = 
+"U hebt een ongeldig wachtwoord ingevoerd.";
+
+/* Unlock UI : Navigation Title */
+"Login" = "Inloggen";
+
+/* Unlock UI : Placeholder text string for password textfield */
+"Password" = "Wachtwoord";
+
+/* Unlock UI : Label text for entering regular password */
+"Enter Password" = "Wachtwoord invoeren";
+
+/* Unlock UI : enter password accessibility label */
+"_EnterPassword" = "Wachtwoord invoeren";
+
+/* Unlock UI : Label text for entering PIN as password */
+"Enter PIN" = "Toegangscode invoeren";
+
+/* Unlock UI : Label text for entering unlock key as password */
+"Enter Unlock Key" = "Ontgrendelcode invoeren";
+
+/* General UI : Next Button accessibility label */
+"_NextButton" = "Volgende";
+
+/* General UI : Next Button accessibility hint */
+"__NextButton" = "Naar volgende scherm.";
+
+/* General UI : Cancel Button accessibility label */
+"_CancelButton" = "Terug";
+
+/* General UI : Cancel Button accessibility hint */
+"__CancelButton" = "Terug naar laatste scherm.";
+
+/* General UI : Close Button accessibility label */
+"_CloseButton" = "Sluiten";
+
+/* General UI : Close Button accessibility hint */
+"__CloseButton" = "Huidige scherm afsluiten.";
+
+/* General UI : Info Button accessibility label */
+"_InfoButton" = "Informatie";
+
+/* General UI : Info Button accessibility hint */
+"__InfoButton" = "Geeft een gedetailleerde uitleg van deze opties.";
+
+/* Help UI : webview accessibility label */
+"_HelpWebview" = "Voorbeeld van e-mail";
+
+/* Error Alert View : Title */
+"Error" = "Fout";
+
+/* Error Alert View : Button label */
+"OK" = "OK";
+
+/* Device Wipe/Block UI: App Denied */
+"Wipe/Block App Denied" = "App niet geautoriseerd.\n%@ v%@\nNeem contact op met uw IT-beheerder.";
+
+/* Device Wipe/Block UI: Description Mobile Docs */
+"Wipe/Block key changed" = "De authenticatie-app is mislukt. Alle in deze app opgeslagen gegevens zijn gewist. Stop de app en herstart hem om het opnieuw te proberen.";
+
+/* Device Wipe/Block UI: NEM mode Description */
+"Wipe/Block NEM Mode" = "De app is in simulatiemodus en kan niet op een apparaat draaien.";
+
+/* Device Wipe/Block UI: Incompliant library Description */
+"Wipe/Block Incompliant lib version" = "De app is gebaseerd op de Good Dynamics bibliotheek versie '%@' en is niet toegestaan. Upgrade de app of schakel deze versie in het nalevingsbeleid in";
+
+/* Device Wipe/Block UI: Incompliant device Description */
+"Wipe/Block Incompliant device" = "De hardwareversie van het apparaat is '%@' en is niet toegestaan. Installeer de app op een toegestaan apparaat of schakel dit hardware nalevingsbeleid in.";
+
+/* Device Wipe/Block UI: Rooted Description */
+"Wipe/Block Rooted" = "Er is een jailbreak op dit apparaat uitgevoerd.";
+
+/* Device Wipe/Block UI: Connectivity in days Description */
+"Wipe/Block Connectivity in days" = "De app heeft de laatste %d dagen geen verbinding met Good Control gemaakt";
+
+/* Device Wipe/Block UI: Connectivity in hours Description */
+"Wipe/Block Connectivity in hours" = "De app heeft de laatste %d uren geen verbinding met Good Control gemaakt";
+
+/* Device Wipe/Block UI: Max password attempts exceeded Description */
+"Wipe/Block Max password attemnts exceeded" = "Het maximum aantal inlogpogingen met een ongeldig wachtwoord is %d en is overschreden.";
+
+/* GDiOS Event : App Permission Failed */
+"Error application not allowed for user" = "Fout, app niet toegestaan voor gebruiker";
+
+/* GDiOS Event : Activation Failed */
+"Error device activation failed" = "Fout, activeren van apparaat mislukt";
+
+/* GDiOS Event : Provisioning Failed */
+"Error provisioning with enterprise failed" = "Fout, rechten voor enterprise mislukt";
+
+/* GDiOS Event : Push Connection Failed */
+"Error push connection failed to open" = "Fout, push-verbinding mislukt";
+
+/* GDiOS Event : Security Failed */
+"Error unlocking secure container" = "Fout, ontgrendelen beveiligde container mislukt";
+
+/* GDiOS Event : Provision Cancelled */
+"Error user cancelled provisioning" = "Opstartfout, gebruiker annuleerde rechtentoewijzing";
+
+/* GDiOS Event : OK */
+"Authorization OK" = "Autorisatie OK";
+
+/* GDiOS Event : Application Blocked */
+"Application access has been blocked" = "Toegang tot app is geblokkeerd";
+
+/* GDiOS Event : Application Wiped */
+"Application has been wiped" = "App is gewist";
+
+/* GDiOS Event : Application Idle Lockout */
+"Application idle timeout activated" = "Time-out app nietsdoen geactiveerd";
+
+/* GDiOS Event : Application Remote Locked */
+"Application has been remote locked" = "App is op afstand geblokkeerd";
+
+/* GDiOS Event: Password Change Required */
+"Password Change Required" = "Wachtwoord moet worden gewijzigd";
+
+/* [Simulated] : Simulated Title Append 
+ * Displayed when the application is running in Enterprise Simulation mode
+ */
+"[Simulated]" = "[Gesimuleerd]";
+
+/* Unlock UI : Label text for forgot password */
+"Password Lost" = "Wwoord kwijt";
+
+/* Unlock UI : forgot password accessibility label */
+"_ForgotPasswordButton" = "Wachtwoord kwijt";
+
+/* Unlock UI : forgot password accessibility hint */
+"__ForgotPasswordButton" = "Vraagt om bevestiging van wachtwoord-reset.";
+
+/* Confirm Alert View : Title */
+"Lock For Reset?" = "Vergrendelen om te resetten?";
+
+/* Confirm Alert View : Message */
+"Password reset requires a special code from your IT administrator. The application will be locked as soon as reset is requested." = "Voor het resetten van het wachtwoord moet u een speciale code krijgen van uw IT-beheerder. De app wordt vergrendeld zodra u een reset aanvraagt.";
+
+/* Confirm Alert View : Positive Button */
+"Reset" = "Resetten";
+
+/* Unlock UI : Keyboard Guide */
+"Touch 'Next' to unlock." = "'Volgende' voor ontgrendelen.";
+
+/* EULA UI : accept EULA accessibility label */
+"_AcceptEULAButton" = "Overeenkomst accepteren";
+
+/* EULA UI : accept EULA accessibility hint */
+"__AcceptEULAButton" = "Accepteert de overeenkomst.";
+
+/* EULA UI : decline EULA accessibility label */
+"_DeclineEULAButton" = "Overeenkomst afwijzen";
+
+/* EULA UI : accept EULA accessibility hint */
+"__DeclineEULAButton" = "Wijst de overeenkomst af.";
+
+/* EULA UI : UDID agreement text */
+"UDID Agreement" = "Mag de unieke apparaatidentificatie (UDID) worden uitgelezen?\n\nDe data van de app waren beschermd met de unieke apparaatidentificatie (UDID). Zonder toegang tot de UDID kunnen uw opgeslagen data niet worden opgehaald en moeten ze worden gewist.";
+
+/* Migrate UI : UDID Access Warning : Title */
+"UDID Access Warning Title" = "UDID-toegang niet toegestaan";
+
+/* Migrate UI : UDID Access Warning : Message */
+"UDID Access Warning Message" = "App resetten en data van app wissen?";
+
+/* Migrate UI : UDID Access Warning : OK */
+"UDID Access Warning OK" = "Wissen";
+
+/* Migrate UI : UDID Access Warning : Allow */
+"UDID Access Warning Allow" = "Toestaan";
+
+/* Remote Lock UI : Description */
+"Contact your IT administrator with the above unlock code to get a temporary password to unlock this application." = "Neem contact op met uw IT-beheerder voor een tijdelijk wachtwoord om deze app te ontgrendelen op basis van bovenstaande ontgrendelcode.";
+
+/* Provision UI : Provision Help Title */
+"An access key should have been sent to you in an e-mail like the following:" = "Een toegangscode is naar u verzonden in een e-mail die er als volgt uitzag:";
+
+/* Provision UI : Provision Help Title */
+"An unlock access key should have been sent to you in an e-mail like the following:" = "Een ontgrendelcode is naar u verzonden in een e-mail die er als volgt uitziet:";
+
+/* Help UI : access key help message */
+"Access key help message" = "<br><div style=\"width:[OUTERWIDTH]px\"><style>DIV.PlainText { font-size:[FONTSIZE];font-family:monospace;background-color:#ffffff;color:#000000; -webkit-border-radius: 5px 5px 0px 0px; padding: [PADDING]px; background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1.0)), to(rgba(255,255,255,0.0)), color-stop(.92,#ffffff));}</style>%@<br><br><font size=\"2\"><div style=\"padding:5px;margin:0px auto; width:[INNERWIDTH]px\" class=\"PlainText\">Beste <font color=808080><i>Uw naam</i></font>,<br><br>U hebt toegang gekregen tot... <br><br>&nbsp;&nbsp; 1. Download de vereiste app<br>&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp; 3. Voer de volgende gegevens in <br>&nbsp;&nbsp; wanneer gevraagd (hoofd/kleine letters maakt niet uit):<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-MAILADRES:&nbsp; <span style=\"background:yellow;color:808080\"><i>email@company.com</i></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TOEGANGSCODE: <span style=\"background:yellow;color:808080\"><i>xxxxx-xxxxx-xxxxx</i></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Uw toegangscode vervalt op:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=808080><i>vervaldatum</i></font><br><br>&nbsp;&nbsp; 4. Indien vereist door IT-beveiligingsbeleid...<br><br><br></div></font></div>";
+
+/* Help UI : unlock access key help message */
+"Unlock access key help message" = "<br><div style=\"width:[OUTERWIDTH]px\"><style>DIV.PlainText { font-size:[FONTSIZE];font-family:monospace;background-color:#ffffff;color:#000000; -webkit-border-radius: 5px 5px 0px 0px; padding: [PADDING]px; background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1.0)), to(rgba(255,255,255,0.0)), color-stop(.92,#ffffff));}</style>%@<br><br><font size=\"2\"><div style=\"padding:5px;margin:0px auto; width:[INNERWIDTH]px\" class=\"PlainText\">Beste <font color=808080><i>Uw naam</i></font>,<br><br>U hebt toegang gekregen tot... <br><br>&nbsp;&nbsp; Voer de volgende gegevens in <br>&nbsp;&nbsp; wanneer gevraagd (hoofd/kleine letters maakt niet uit):<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-MAILADRES:&nbsp; <span style=\"background:yellow;color:808080\"><i>email@company.com</i></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ONTGRENDELCODE: <span style=\"background:yellow;color:808080\"><i>xxxxx-xxxxx-xxxxx</i></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Uw ontgrendelcode vervalt op:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=808080><i>vervaldatum</i></font><br><br>&nbsp;&nbsp;<br><br><br></div></font></div>";
+
+/* Help UI : access key help message non-html */
+"Access key help message non-html" = "Beste <Your Name>,\n\nU hebt toegang gekregen tot ... \n\n1. Download de vereiste app ...\n3. Voer de volgende gegevens is wanneer gevraagd (hoofd/kleine letters maakt niet uit):\n\nE-MAILADRES:  email@company.com\nTOEGANGSCODE: xxxxx-xxxxx-xxxxx\n\nUw toegangscode vervalt op: <expiration date>\n\n4. Als vereist door IT-beveiligingsbeleid, ...";
+
+/* Information UI : title */
+"Information" = "Informatie";

@@ -1,0 +1,616 @@
+/* 
+ * Copyright (c) Visto Corporation dba Good Technology, 2012. All rights reserved.
+ */
+
+/* Localizable strings within the Good Dynamics client library user interface.
+ * The order of strings in this file is based on the order in which they would
+ * normally be encountered during set-up, and then on the order in which they 
+ * appear on the screen, from top to bottom.
+ */
+
+/* Welcome UI strings, for the first page that is displayed, before set-up. */
+
+/* Welcome UI : Navigation Title
+ * Also appears in the following:
+ * Provision UI : Navigation Title
+ * Provision Progress UI : Navigation Title
+ */
+"Setup" = "Configurazione";
+
+/* Welcome UI : Next button label text */
+"Start" = "Configura";
+
+/* Welcome UI : Next button Accessibility label */
+"_Start" = "Configura";
+
+/* Welcome UI : Next button Accessibility hint */
+"__Start" = "Passa alla schermata successiva.";
+
+/* Welcome UI : Welcome Message
+ * In the following, WiFi should be Wi-Fi with a hyphen, but the UI will 
+ * break the line at the hyphen, which looks bad.
+ * IT admin should be IT administrator, but administrator is a long word and 
+ * causes an odd line break.
+ */
+"Welcome to Good Dynamics" =
+"Benvenuto in Good Dynamics
+
+Per la procedura di configurazione è necessaria una copertura WiFi o dei dati mobili.
+Sono necessari l'indirizzo e-mail e la chiave di accesso indicati nel messaggio di benvenuto inviato dall'amministratore IT.";
+
+/* Provision UI strings, for the page on which the user enters their 
+ * e-mail address and activation key (aka PIN).
+ */
+
+/* Provision UI : Left button label text
+ * Also appears in the following:
+ * Set Password UI : Left button label text
+ * Unlock UI : Left button label text
+ */
+"Cancel" = "Annulla";
+
+/* Provision UI : Right button label text */
+"Next" = "Avanti";
+
+/* Company Name - Good Technology */
+"Good Technology" = "Good Technology";
+
+/* Provision UI : Email Label text */
+"Email Address" = "Indirizzo e-mail";
+
+/* Provision UI : Email accessibility label */
+"_EmailAddress" = "Indirizzo e-mail";
+
+/* Provision UI : PIN Label text */
+"PIN" = "Chiave di accesso";
+
+/* Provision UI : PIN Label text */
+"Unlock Key" = "Chiave di sblocco";
+
+/* Provision UI : PIN Field 1 accessibility label */
+"_PinField1" = "Campo della chiave di accesso 1 di 3";
+
+/* Provision UI : PIN Field 2 accessibility label */
+"_PinField2" = "Campo della chiave di accesso 2 di 3";
+
+/* Provision UI : PIN Field 3 accessibility label */
+"_PinField3" = "Campo della chiave di accesso 3 di 3";
+
+/* Provision UI : Error Message - Invalid PIN */
+"Invalid PIN" = "Chiave di accesso non valida";
+
+/* Provision UI : Error Message - No Coverage */
+"Network Required" =
+"Per la procedura di configurazione è necessaria una copertura Wi-Fi o dei dati mobili.
+\nRiprovare quando è disponibile una connessione dati.";
+
+/* Provision UI : Title */
+"Set-up failed" = "Configurazione non riuscita";
+
+/* Provision Progress UI strings, for the page that is displayed during
+ * authorization processing.
+ */
+
+
+/* Provision Progress UI : Left button label text */
+"Back" = "Indietro";
+
+/* Provision Progress UI : Set Up Progress Label */
+"Setup Progress" = "Avanzamento";
+
+/* Provision Progress UI : Status Label text */
+"Status" = "Stato";
+
+/* Provision Progress UI : State - Init
+ * In this state:
+ * Post to the GD NOC activation service
+ * Establish Push Connection
+ */
+"NOC Activation" = "Attivazione infrastruttura";
+
+/* Provision Progress UI : State - NOC
+ * In this state:
+ * Post e-mail address and access key to the NOC
+ * NOC checks validity
+ * Returns: Various server addresses
+ */
+"NOC Provisioning" = "Attivazione aziendale";
+
+/* Provision Progress UI : State - Push Channel
+ * In this state:
+ * Initial Push Channel is established
+ */
+"Starting Push Channel" = "Connessione al canale di push";
+
+/* Provision Progress UI : State - Negotiate
+ * In this state:
+ * Secure communications set-up, part one
+ */
+"Negotiating Request" = "Protezione delle comunicazioni";
+
+/* Provision Progress UI : State - Data Request
+ * In this state:
+ * Secure communications set-up, part two
+ */
+"Data Request" = "Comunicazioni protette";
+
+/* Provision Progress UI : State - Downloading Policies
+ * In this state:
+ * Retrieve policies from enterprise GC
+ */
+"Downloading Policies" = "Recupero delle policy";
+
+/* Provision Progress UI : State - Policy Download Complete */
+"Policy Download Complete" = "Policy recuperate";
+
+/* Provision Progress UI : State - Provision Complete */
+"Provisioning Complete" = "Attivazione aziendale completata";
+
+/* Provision Progress UI : State - Waiting */
+"Waiting..." = "In attesa...";
+
+/* Provision Progress UI : State - Checking Permission */
+"Checking Permission" = "Controllo abilitazione";
+
+/* Provision Progress UI : State - Checking Permission Complete */
+"Permission Verified" = "Abilitazione verificata";
+
+/* Provision Progress UI : Provision Fail Message */
+"Provisioning with enterprise failed" = "Configurazione applicazione non riuscita";
+
+/* Provision Progress UI : Provision accessibility label */
+"_ProvisionProgressUI" = "Stato configurazione";
+
+/* Provision Progress UI : Provision accessibility hint */
+"__ProvisionProgressUI" = "Visualizza lo stato di configurazione attuale.";
+
+/* Provision Progress UI : Provision Access Denied Message
+ * IT admin should be IT administrator, but administrator is a long word and 
+ * causes an odd line break.
+ */
+"Provisioning Denied" = 
+"L'indirizzo e-mail e la chiave di accesso non sono stati riconosciuti.\n
+Controllare che i valori immessi siano corretti e che non siano scaduti. Se il problema persiste, richiedere una nuova chiave di accesso al self-service o all'amministratore IT.";
+
+/* Provision Progress UI : NOC Activation failure message */
+"NOC Activation failed" = "Impossibile stabilire una connessione al servizio NOC";
+
+/* Provision Progress UI : NOC Provisining failure message */
+"NOC Provisining Failed" = "Impossibile stabilire una connessione al servizio NOC";
+
+/* Provision Progress UI : Starting Push Channel failure message */
+"Starting Push Channel Failed" = "Avvio del canale di push non riuscito";
+
+/* Provision Progress UI : Negotiating Request failure message */
+"Negotiating Request Failed" = "Richiesta di negoziazione non riuscita";
+
+/* Provision Progress UI : Data Request failure message */
+"Data Request Failed" = "Richiesta di dati non riuscita";
+
+/* Provision Progress UI : Policy Exchange failure message */
+"Policy Exchange failed" = "Scambio di policy non riuscito";
+
+/* Provision Progress UI : Send Log */
+"Send Log" = "Invia registro";
+
+/* Provision Progress UI : Retry */
+"Retry" = "Riprova";
+
+/* Set Password UI strings, for the screen on which the user sets their
+ * security password. The password must comply with the provisioning 
+ * enterprise's security policies.
+ * The Set Password screen can appear in two contexts:
+ * Immediately after set-up has completed and the user sets their password for 
+ * the first time, and
+ * As part of the preferences user interface, where the user can change their
+ * password.
+ */
+
+/* Set Password UI : Navigation Title - Set Password
+ * For use when the screen appears as part of the set-up UI
+ */
+"Set Password" = "Imposta password";
+
+/* Set Password UI : Navigation Title - Change Password
+ * For use when the screen appears as part of the GD Settings UI
+ */
+"Change Password" = "Modifica password";
+
+/* Set Password UI : Right button label text */
+"Done" = "Fine";
+
+/* Set Password UI : Label text for setting password. */
+"You are required to set a password." = "È necessario specificare una password.";
+
+/* Set Password UI : Placeholder text string for confirm password textfield */
+"Confirm New Password" = "Conferma nuova password";
+
+/* The following strings are used to present the rules that will apply to the 
+ * user's password.
+ */
+
+/* Set Password UI : Password Guide Preface 
+ * The following appears above the rules statements.
+ */
+"Your password must include:\n" = "La password deve soddisfare i seguenti requisiti:\n";
+
+/* Set Password UI : Password Guide - Repeat
+ * Note. The relative positions of repeated characters does not affect this
+ * policy. In other words the repeated characters could be adjacent or not
+ * adjacent.
+ */
+"- Disallow %d or more repeated characters\n" = "- Non più di %d di qualsiasi carattere\n";
+
+/* Set Password UI : Password Guide - Sequential Number
+ * Note: There is no policy against sequential letters, for example: abcdef
+ */
+"- Do not allow sequential numbers\n" = "- Nessun numero sequenziale (ad esempio 123 o 321)\n";
+
+/* Set Password UI : Password Guide - Personal Information
+ */
+"- Do not allow personal information\n" = "- Nessuna informazione personale\n";
+
+/* Set Password UI : Password Guide - Length */
+"- Require at least %d characters\n" = "- Almeno %d caratteri\n";
+
+/* Set Password UI : Password Guide - Special Character
+ * Note: Here, a special character is one that returns non-zero when passed to a
+ * standard ispunct() function. See the following page for a definition:
+ * http://pubs.opengroup.org/onlinepubs/000095399/basedefs/xbd_chap07.html
+ */
+"- Require at least one special character\n" = "- Non deve contenere solo lettere e numeri\n";
+
+/* Set Password UI : Password Guide - Number */
+"- Require both letters and numbers\n" = "- Deve contenere sia lettere che numeri\n";
+
+/* Set Password UI : Password Guide - Uppercase */
+"- Require both upper and lower case\n" = "- Deve contenere lettere sia maiuscole che minuscole\n";
+
+/* End of password rules */
+
+/* Set Password UI : Placeholder text string for new password textfield */
+"New Password" = "Nuova password";
+
+/* Set Password UI : Placeholder text string for old password textfield */
+"Old Password" = "Password precedente";
+
+/* The following are error messages for use when the password that the user
+ * entered does not comply with security policy. These are displayed on a
+ * dialog over the screen on which the user has attempted to enter the password.
+ * The title of the dialog is always "Error" or its localization.
+ */
+
+/* Set Password UI : Error Message - Password Change Failure 
+ * This error is displayed if the old password was incorrect.
+ */
+"New password cannot be changed" = "Non è possibile modificare la password. Riprovare.";
+
+/* Set Password UI : Error Message - Password Change Failure History */
+"Your password cannot be set to one used previously." = "La password è stata utilizzata in precedenza.";
+
+/* Set Password UI : Error Message - Password Change Failure Too Soon */
+"Your password cannot be changed twice in the same day." = "La password è stata già cambiata oggi.";
+
+/* Set Password UI : Error Message - Sequential Numbers */
+"No number sequence allowed (eg.123 or 321)" = "La password contiene numeri sequenziali (ad esempio: 123 o 321).";
+
+/* Set Password UI : Error Message - Personal Information */
+"Password cannot have personal information" = "La password contiene informazioni personali";
+
+/* Set Password UI : Error Message - General Error */
+"Password is not strong enough." = "La password non è sufficientemente complessa.";
+
+/* Set Password UI : Error Message - Short Password */
+"Password is too short." = "La password è troppo corta.";
+
+/* Set Password UI : Error Message - Letters and Numbers */
+"Password must have both letters and numbers" = "La password non contiene sia lettere sia numeri.";
+
+/* Set Password UI : Error Message - Upper Case */
+"Password must have upper and lower case letters" = "La password non contiene lettere in maiuscolo e minuscolo.";
+
+/* Set Password UI : Error Message - Numeric Character */
+"There is no numeric character in password." = "La password non contiene numeri.";
+
+/* Set Password UI : Error Message - Special Character */
+"There is no special character (@, #, $) in password." = "La password contiene solo lettere e numeri.";
+
+/* Set Password UI : Error Message - No Uppercase */
+"There is no uppercase character in password." = "La password non contiene caratteri in maiuscolo.";
+
+/* Set Password UI : Error Message - Repeated Characters */
+"Too many repeated characters" = "La password contiene troppi caratteri ripetuti.";
+
+/* Set Password UI : Error Message - Not Matched */
+"Two passwords do not match" = "Le due password non corrispondono. Riprovare.";
+
+/* End of password compliance error messages */
+
+/* Set Password UI : Error Message - Password Set Failure */
+"New password cannot be set" = "Impossibile impostare la nuova password.";
+
+/* Set Password UI : Error Message - Empty Password */
+"Empty password is not allowed." = "Non è stata specificata una password.";
+
+/* Set Password UI : old password accessibility label */
+"_OldPassword" = "Password precedente";
+
+/* Set Password UI : new password accessibility label */
+"_NewPassword" = "Nuova password";
+
+/* Set Password UI : confirm password accessibility label */
+"_ConfirmPassword" = "Conferma nuova password";
+
+/* Block UI : Navigation Title */
+"Blocked" = "Applicazione bloccata";
+
+/* Block UI : Description
+ * In principle, this is always blocked due to policy violation. In actuality,
+ * there are two scenarios in which a policy block could be put in place.
+ * Something may have happened on the device that makes it non-compliant.
+ * Also possible is that a policy update has taken place and the device is not
+ * compliant with the new policy, but was compliant with the old policy.
+ */
+"Application access blocked" = "L'accesso a questa applicazione è stato bloccato.";
+
+/* Device Wipe UI : Navigation Title */
+"Invalid Device" = "Accesso all'applicazione negato";
+
+/* Device Wipe UI : Description */
+"Your device has been wiped!" = "Questa applicazione è stata cancellata. Per richiedere di nuovo l'accesso, contattare l'amministratore IT.";
+
+/* InterApp Lock UI : Navigation Title */
+"Access Blocked" = "Accesso bloccato";
+
+/* InterApp Lock UI : Description */
+"The authentication application is not installed." = "L'applicazione di autenticazione non è installata.";
+
+/* InterApp Lock UI : Description whilst retreving download URL */
+"The authentication application is not installed or an update is required.\n\nRetrieving application details:\nBundle ID: %s" = "L'applicazione di autenticazione non è installata o è necessario un aggiornamento.\n\nRecupero dei dettagli dell'applicazione:\nID bundle: %s";
+
+/* InterApp Lock UI : Description whilst retreving download URL got name and version */
+"The authentication application is not installed or an update is required.\n\nRetrieving application details:\nBundle ID: %s\nName: %s\nVersion: %s" = "L'applicazione di autenticazione non è installata o è necessario un aggiornamento.\n\nRecupero dei dettagli dell'applicazione:\nID bundle: %s\nNome: %s\nVersione: %s";
+
+/* InterApp Lock UI : Description retreived download URL */
+"The authentication application is not installed or an update is required.\n\nApplication details:\nBundle ID: %s\nName: %s\nVersion: %s\n\nPlease obtain from:\n%s" = "L'applicazione di autenticazione non è installata o è necessario un aggiornamento.\n\nDettagli dell'applicazione:\nID bundle: %s\nNome: %s\nVersione: %s\n\nOttenere da:\n%s";
+
+/* InterApp Lock UI : Description got no download URL */
+"The authentication application is not installed or an update is required.\n\nApplication details:\nBundle ID: %s\nName: %s\nVersion: %s\n\nPlease contact your IT administrator." = "L'applicazione di autenticazione non è installata o è necessario un aggiornamento.\n\nDettagli dell'applicazione:\nID bundle: %s\nNome: %s\nVersione: %s\n\nContattare l'amministratore IT.";
+
+/* Wipe or Reset UI : Title */
+"Authentication failed" = "Autenticazione persa";
+
+/* Wipe or Reset UI : Message */
+"The authentication application has failed to authenticate this application. You can choose to initiate Password Reset, which will required obtaining a special code from your IT administrator, or Wipe to wipe all data and start again." = 
+"Selezionare Recupera per recuperare l'autenticazione. È necessario richiedere un codice speciale all'amministratore IT. Selezionare Cancella per cancellare i dati in modo che sia possibile riconfigurare l'autenticazione. Per la configurazione è necessaria la riattivazione con un nuovo codice di accesso.";
+
+/* Wipe or Reset UI : Right button label text */
+"Reset Password" = "Recupera";
+
+/* Wipe or Reset UI : Left button label text */
+"Wipe" = "Cancella";
+
+/* Please Wait UI : Navigation Title */
+"Authenticating" = "Autenticazione in corso";
+
+/* Remote Lock UI : Navigation Title */
+"Remote Lock" = "Applicazione remota bloccata";
+
+/* Remote Lock UI : Right button label text
+ Unlock UI : Right button label text */
+"Unlock" = "Sblocca";
+
+/* Remote Lock UI : Help Message */
+"Contact your IT administrator with the following case sensitive unlock-code to get the temporary unlock password." = "Contattare l'amministratore IT con il seguente codice di sblocco per ottenere una password temporanea per sbloccare questa applicazione.";
+
+/* Remote Lock UI : Password Field 1 accessibility label */
+"_PwdField1" = "Campo della chiave di sblocco 1 di 4";
+
+/* Remote Lock UI : Password Field 2 accessibility label */
+"_PwdField2" = "Campo della chiave di sblocco 2 di 4";
+
+/* Remote Lock UI : Password Field 3 accessibility label */
+"_PwdField3" = "Campo della chiave di sblocco 3 di 4";
+
+/* Remote Lock UI : Password Field 4 accessibility label */
+"_PwdField4" = "Campo della chiave di sblocco 4 di 4";
+
+/* Remote Lock UI : Error alertview message
+ Unlock UI : Error alertview message */
+"Incorrect Password" = "Password non corretta";
+
+/* Unlock UI : Incorrect Password with max */
+"The password you entered is not correct. You have %d attempts remaining." = 
+"La password immessa non è corretta. Sono disponibili %d tentativi rimanenti.";
+
+/* Unlock UI : Incorrect Password */
+"The password you entered is not correct." = 
+"La password immessa è errata.";
+
+/* Unlock UI : Navigation Title */
+"Login" = "Accedi";
+
+/* Unlock UI : Placeholder text string for password textfield */
+"Password" = "Password";
+
+/* Unlock UI : Label text for entering regular password */
+"Enter Password" = "Immettere la password";
+
+/* Unlock UI : enter password accessibility label */
+"_EnterPassword" = "Immettere la password";
+
+/* Unlock UI : Label text for entering PIN as password */
+"Enter PIN" = "Immettere il codice di accesso";
+
+/* Unlock UI : Label text for entering unlock key as password */
+"Enter Unlock Key" = "Immettere il codice di sblocco";
+
+/* General UI : Next Button accessibility label */
+"_NextButton" = "Avanti";
+
+/* General UI : Next Button accessibility hint */
+"__NextButton" = "Passa alla schermata successiva.";
+
+/* General UI : Cancel Button accessibility label */
+"_CancelButton" = "Indietro";
+
+/* General UI : Cancel Button accessibility hint */
+"__CancelButton" = "Torna all'ultima schermata.";
+
+/* General UI : Close Button accessibility label */
+"_CloseButton" = "Chiudi";
+
+/* General UI : Close Button accessibility hint */
+"__CloseButton" = "Chiude la schermata corrente.";
+
+/* General UI : Info Button accessibility label */
+"_InfoButton" = "Informazione";
+
+/* General UI : Info Button accessibility hint */
+"__InfoButton" = "Visualizza una spiegazione dettagliata di queste opzioni.";
+
+/* Help UI : webview accessibility label */
+"_HelpWebview" = "E-mail di esempio";
+
+/* Error Alert View : Title */
+"Error" = "Errore";
+
+/* Error Alert View : Button label */
+"OK" = "OK";
+
+/* Device Wipe/Block UI: App Denied */
+"Wipe/Block App Denied" = "Applicazione non autorizzata.\n%@ v%@\nContattare l'amministratore IT.";
+
+/* Device Wipe/Block UI: Description Mobile Docs */
+"Wipe/Block key changed" = "Si è verificato un errore dell'applicazione di autenticazione. Verranno cancellati tutti i dati memorizzati in questa applicazione. Chiudere a riavviare l'applicazione.";
+
+/* Device Wipe/Block UI: NEM mode Description */
+"Wipe/Block NEM Mode" = "Impossibile eseguire l'applicazione su un dispositivo poiché è in modalità di simulazione.";
+
+/* Device Wipe/Block UI: Incompliant library Description */
+"Wipe/Block Incompliant lib version" = "L'applicazione è basata sulla libreria di Good Dynamics, versione '%@'. Questa versione non è consentita. Aggiornare l'applicazione o attivare questa versione nella policy di conformità";
+
+/* Device Wipe/Block UI: Incompliant device Description */
+"Wipe/Block Incompliant device" = "La versione del dispositivo è '%@' e questa versione non è consentita. Installare l'applicazione su un dispositivo in cui è consentita o abilitare la policy di conformità hardware.";
+
+/* Device Wipe/Block UI: Rooted Description */
+"Wipe/Block Rooted" = "È stato eseguito il jailbreak del dispositivo.";
+
+/* Device Wipe/Block UI: Connectivity in days Description */
+"Wipe/Block Connectivity in days" = "L'applicazione non è stata collegata a Good Control negli ultimi %d giorni.";
+
+/* Device Wipe/Block UI: Connectivity in hours Description */
+"Wipe/Block Connectivity in hours" = "L'applicazione non è stata collegata a Good Control nelle ultime %d ore.";
+
+/* Device Wipe/Block UI: Max password attempts exceeded Description */
+"Wipe/Block Max password attemnts exceeded" = "È stato superato il numero massimo di tentativi di password non valide che è %d.";
+
+/* GDiOS Event : App Permission Failed */
+"Error application not allowed for user" = "Errore: applicazione non consentita per l'utente";
+
+/* GDiOS Event : Activation Failed */
+"Error device activation failed" = "Errore: attivazione del dispositivo non riuscita";
+
+/* GDiOS Event : Provisioning Failed */
+"Error provisioning with enterprise failed" = "Errore: provisioning con l'azienda non riuscito";
+
+/* GDiOS Event : Push Connection Failed */
+"Error push connection failed to open" = "Errore: impossibile aprire la connessione push";
+
+/* GDiOS Event : Security Failed */
+"Error unlocking secure container" = "Errore di sblocco del container sicuro";
+
+/* GDiOS Event : Provision Cancelled */
+"Error user cancelled provisioning" = "Errore di start-up: l'utente ha annullato il provisioning";
+
+/* GDiOS Event : OK */
+"Authorization OK" = "Autorizzazione corretta";
+
+/* GDiOS Event : Application Blocked */
+"Application access has been blocked" = "L'accesso all'applicazione è stato bloccato";
+
+/* GDiOS Event : Application Wiped */
+"Application has been wiped" = "L'applicazione è stata cancellata";
+
+/* GDiOS Event : Application Idle Lockout */
+"Application idle timeout activated" = "Timeout di inattività dell'applicazione attivato";
+
+/* GDiOS Event : Application Remote Locked */
+"Application has been remote locked" = "L'applicazione è stata bloccata in remoto";
+
+/* GDiOS Event: Password Change Required */
+"Password Change Required" = "È necessario modificare la password";
+
+/* [Simulated] : Simulated Title Append 
+ * Displayed when the application is running in Enterprise Simulation mode
+ */
+"[Simulated]" = "[Simulato]";
+
+/* Unlock UI : Label text for forgot password */
+"Password Lost" = "PW persa";
+
+/* Unlock UI : forgot password accessibility label */
+"_ForgotPasswordButton" = "Password persa";
+
+/* Unlock UI : forgot password accessibility hint */
+"__ForgotPasswordButton" = "Richiede conferma della reimpostazione della password.";
+
+/* Confirm Alert View : Title */
+"Lock For Reset?" = "Blocco per la reimpostazione?";
+
+/* Confirm Alert View : Message */
+"Password reset requires a special code from your IT administrator. The application will be locked as soon as reset is requested." = "Per reimpostare la password è necessario un codice speciale fornito dall'amministratore IT. L'applicazione verrà bloccata non appena viene richiesta una reimpostazione.";
+
+/* Confirm Alert View : Positive Button */
+"Reset" = "Reimposta";
+
+/* Unlock UI : Keyboard Guide */
+"Touch 'Next' to unlock." = "Sbloccare con 'Avanti'.";
+
+/* EULA UI : accept EULA accessibility label */
+"_AcceptEULAButton" = "Accetto il contratto";
+
+/* EULA UI : accept EULA accessibility hint */
+"__AcceptEULAButton" = "Accetta il contratto.";
+
+/* EULA UI : decline EULA accessibility label */
+"_DeclineEULAButton" = "Rifiuto il contratto";
+
+/* EULA UI : accept EULA accessibility hint */
+"__DeclineEULAButton" = "Rifiuta il contratto.";
+
+/* EULA UI : UDID agreement text */
+"UDID Agreement" = "Consentire la lettura dell'UDID (Unique Device Identifier)?\n\nI dati dell'applicazione sono stati protetti in precedenza con l'UDID. Senza l'accesso a tale identificatore, non è possibile recuperare i dati salvati che verranno cancellati.";
+
+/* Migrate UI : UDID Access Warning : Title */
+"UDID Access Warning Title" = "Accesso UDID negato";
+
+/* Migrate UI : UDID Access Warning : Message */
+"UDID Access Warning Message" = "Reimpostare l'applicazione e cancellare i dati?";
+
+/* Migrate UI : UDID Access Warning : OK */
+"UDID Access Warning OK" = "Cancella";
+
+/* Migrate UI : UDID Access Warning : Allow */
+"UDID Access Warning Allow" = "Consenti";
+
+/* Remote Lock UI : Description */
+"Contact your IT administrator with the above unlock code to get a temporary password to unlock this application." = "Contattare l'amministratore IT con il codice di sblocco indicato sopra per ottenere una password temporanea per sbloccare questa applicazione.";
+
+/* Provision UI : Provision Help Title */
+"An access key should have been sent to you in an e-mail like the following:" = "È stata inviata una chiave di accesso in un messaggio e-mail simile al seguente:";
+
+/* Provision UI : Provision Help Title */
+"An unlock access key should have been sent to you in an e-mail like the following:" = "È stata inviata una chiave di accesso sblocco in un messaggio e-mail simile al seguente:";
+
+/* Help UI : access key help message */
+"Access key help message" = "<br><div style=\"width:[OUTERWIDTH]px\"><style>DIV.PlainText { font-size:[FONTSIZE];font-family:monospace;background-color:#ffffff;color:#000000; -webkit-border-radius: 5px 5px 0px 0px; padding: [PADDING]px; background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1.0)), to(rgba(255,255,255,0.0)), color-stop(.92,#ffffff));}</style>%@<br><br><font size=\"2\"><div style=\"padding:5px;margin:0px auto; width:[INNERWIDTH]px\" class=\"PlainText\">Gentile <font color=808080><i>nome utente</i></font>,<br><br>È stato consentito l'accesso a... <br><br>&nbsp;&nbsp; 1. Scaricare l'applicazione necessaria<br>&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp; 3. Immettere le seguenti informazioni quando <br>&nbsp;&nbsp; richiesto (senza distinzione tra maiuscole/minuscole):<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INDIRIZZO E-MAIL:&nbsp; <span style=\"background:yellow;color:808080\"><i>email@azienda.com</i></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CHIAVE DI ACCESSO: <span style=\"background:yellow;color:808080\"><i>xxxxx-xxxxx-xxxxx</i></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Scadenza della chiave di accesso:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=808080><i>data di scadenza</i></font><br><br>&nbsp;&nbsp; 4. Se necessario in base alla policy di sicurezza IT...<br><br><br></div></font></div>";
+
+/* Help UI : unlock access key help message */
+"Unlock access key help message" = "<br><div style=\"width:[OUTERWIDTH]px\"><style>DIV.PlainText { font-size:[FONTSIZE];font-family:monospace;background-color:#ffffff;color:#000000; -webkit-border-radius: 5px 5px 0px 0px; padding: [PADDING]px; background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1.0)), to(rgba(255,255,255,0.0)), color-stop(.92,#ffffff));}</style>%@<br><br><font size=\"2\"><div style=\"padding:5px;margin:0px auto; width:[INNERWIDTH]px\" class=\"PlainText\">Gentile <font color=808080><i>nome utente</i></font>,<br><br>È stato consentito l'accesso a... <br><br>&nbsp;&nbsp; Immettere le seguenti informazioni quando <br>&nbsp;&nbsp; richiesto (senza distinzione tra maiuscole/minuscole):<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INDIRIZZO E-MAIL:&nbsp; <span style=\"background:yellow;color:808080\"><i>email@company.com</i></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CHIAVE DI ACCESSO DI SBLOCCO: <span style=\"background:yellow;color:808080\"><i>xxxxx-xxxxx-xxxxx</i></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Scadenza della chiave di accesso:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=808080><i>data di scadenza</i></font><br><br>&nbsp;&nbsp;<br><br><br></div></font></div>";
+
+/* Help UI : access key help message non-html */
+"Access key help message non-html" = "Gentile <Your Name>,\n\nÈ stato consentito l'accesso a ... \n\n1. Scaricare l'applicazione necessaria ...\n3. Immettere le seguenti informazioni quando richiesto  (senza distinzione tra maiuscole/minuscole):\n\nINDIRIZZO E-MAIL: email@azienda.com\nCHIAVE DI ACCESSO: xxxxx-xxxxx-xxxxx\n\nScadenza della chiave di accesso: <expiration date>\n\n4. Se necessario in base alla policy di sicurezza IT, ...";
+
+/* Information UI : title */
+"Information" = "Informazione";
