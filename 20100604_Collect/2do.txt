@@ -1,0 +1,14 @@
+1. get phrase.txt
+2. upload *.uni
+3. refine icon
+4. set draw width
+
+3. phrase fomat
+unicode big FE FF
+unicode FF FE
+utf8    EF BB BF
+gb2312/gb18030
+
+4. uni format
+hex of phrase in ucs2 encoding
+gb2312/gb18030 for person info
